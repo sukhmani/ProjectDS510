@@ -30,3 +30,5 @@ scatter = ax.scatter(X_pca[:, 0], X_pca[:, 1], c=clusters, cmap='viridis')
 legend1 = ax.legend(*scatter.legend_elements(), title="Clusters")
 ax.add_artist(legend1)
 st.pyplot(fig)
+
+# Reference: https://discuss.streamlit.io/t/beginner-s-guide-to-making-an-interactive-iris-flower-classification-app-using-streamlit/6033
